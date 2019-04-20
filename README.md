@@ -1,0 +1,8 @@
+- Initialise prisma
+    - prisma init
+- Add database name to docker-compose.yml
+- Docker Container
+    - docker-compose up
+- Stop docker container
+    - docker container ls
+    - docker stop container_name
