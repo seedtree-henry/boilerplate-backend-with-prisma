@@ -9,3 +9,4 @@
 - Prisma version
     - docker-compose.yml version
     - https://www.prisma.io/blog/datamodel-v11-lrzqy1f56c90#option-b-starting-from-scratch
+    - https://www.youtube.com/watch?v=48m1Gnmu19Q
