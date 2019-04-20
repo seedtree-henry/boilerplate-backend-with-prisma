@@ -6,3 +6,6 @@
 - Stop docker container
     - docker container ls
     - docker stop container_name
+- Prisma version
+    - docker-compose.yml version
+    - https://www.prisma.io/blog/datamodel-v11-lrzqy1f56c90#option-b-starting-from-scratch

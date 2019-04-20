@@ -1,7 +1,7 @@
 version: '3'
 services:
   prisma:
-    image: prismagraphql/prisma:1.29
+    image: prismagraphql/prisma:1.31
     restart: always
     ports:
     - "4466:4466"
@@ -23,6 +23,9 @@ services:
   postgres:
     image: postgres
     restart: always
+    # Uncomment the next two lines to connect to your your database from outside the Docker environment, e.g. using a database GUI like Postico
+    # ports:
+    # - "5432:5432"
     environment:
       POSTGRES_USER: prisma
       POSTGRES_PASSWORD: prisma
